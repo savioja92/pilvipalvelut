@@ -1,1 +1,15 @@
+/* Tyyli index sivulle. PILVIPALVELUT */
 
+body {
+    background-color: #ac90e4;
+    font-family: Roboto, sans-serif;
+}
+
+h1 {
+    color: #333;
+}
+
+.container {
+    max-width: 550px;
+    margin: 0 auto;
+}
