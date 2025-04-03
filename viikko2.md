@@ -7,6 +7,4 @@ Jos tarkoitus olisi pyörittää julkisena toimivaa sivustoa, voisi siihen laitt
 Olen aikaisemmalla kurssilla tehnyt reaaliaikaista API-dataa näyttävän sivun, jota haluaisin parannella vielä tulevaisuudessa. Kyseiselle sivulle voisin asettaa automaattisen integroinnin esim. joka 50 päivän välein, sillä päivitysten nopea päivittyminen ei ole oleellista sivuston toiminnan kannalta. 
 Turhan työn välttämiseksi hyvä toimintamalli uutta sivustoa rakentaessa olisi aloittaa YAML-tiedostosta ja rakentaa pohja juurikansiolle oleellisimmista tiedostoista, readme-tiedostosta sekä strateginen suunnitelma. Kyseinen prosessi nopeuttaisi ja helpottaisi kehittämistyötä, ja sivuston julkaisu tapahtuisi kuin itsestään alussa asetettujen asetusten ansiosta. 
 
-...
-...
-[etusivulle](index.md)
+[Takaisin etusivulle](index.md)
