@@ -1,22 +1,19 @@
-import { useEffect, useState, useCallback } from 'react';
-import reactLogo from '/assets/react.svg';
+import { useState, useEffect, useCallback } from 'react'
+import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import '/App.css'
+import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
 
-  // TÄMÄ ON HOOK 
-  useEffect(()  => {
-    console.log('Viesti efektifunktiosta')
-  });
-
-  const handleClick = useCallback<React.MouseEventHandler<HTMLButtonElement>>
-  ((event) => {
-    console.log('Nappi painettu: (' + event.pageX + ', ' + event.pageY + ')');
-    setCount((count) => count + 1);
+  const handleClick = useCallback<React.MouseEventHandler<HTMLButtonElement>>((event) => {
+    console.log('Nappi painettu: (' + event.pageX + ', ' + + event.pageY + ')');
   }, [setCount]);
 
+
+  useEffect(() => {
+    console.log('Viesti efektifunktiosta')
+  });
 
   return (
     <>
@@ -28,10 +25,10 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Nikon websovellus</h1>
+      <h1>Vite + React</h1>
       <div className="card">
         <button onClick={(handleClick)}>
-          tilillesi tulee euroja {count}
+          count is {count}
         </button>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
